@@ -1,0 +1,55 @@
+[debug] [2025-03-08T01:43:48.177Z] ----------------------------------------------------------------------
+[debug] [2025-03-08T01:43:48.180Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2025-03-08T01:43:48.180Z] CLI Version:   13.33.0
+[debug] [2025-03-08T01:43:48.181Z] Platform:      darwin
+[debug] [2025-03-08T01:43:48.181Z] Node Version:  v20.18.0
+[debug] [2025-03-08T01:43:48.181Z] Time:          Sat Mar 08 2025 12:43:48 GMT+1100 (Australian Eastern Daylight Time)
+[debug] [2025-03-08T01:43:48.181Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-08T01:43:48.276Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-08T01:43:48.276Z] > authorizing via signed-in user (se.townsend31@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-03-08T01:43:48.414Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] ⚠  hosting: Hosting Emulator unable to start on port 5000, starting on 5002 instead. {"metadata":{"emulator":{"name":"hosting"},"message":"Hosting Emulator unable to start on port 5000, starting on 5002 instead."}}
+[debug] [2025-03-08T01:43:48.415Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-08T01:43:48.415Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-03-08T01:43:48.417Z] [hub] writing locator at /var/folders/67/b90h54tn2z972gzxcbphc8dc0000gn/T/hub-budget-app-579d1.json
+[debug] [2025-03-08T01:43:48.427Z] Checked if tokens are valid: true, expires at: 1741401627976
+[debug] [2025-03-08T01:43:48.427Z] Checked if tokens are valid: true, expires at: 1741401627976
+[debug] [2025-03-08T01:43:48.428Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/budget-app-579d1/sites 
+[debug] [2025-03-08T01:43:49.294Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/budget-app-579d1/sites 200
+[debug] [2025-03-08T01:43:49.294Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/budget-app-579d1/sites {"sites":[{"name":"projects/budget-app-579d1/sites/budget-app-579d1","defaultUrl":"https://budget-app-579d1.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-03-08T01:43:49.295Z] Checked if tokens are valid: true, expires at: 1741401627976
+[debug] [2025-03-08T01:43:49.295Z] Checked if tokens are valid: true, expires at: 1741401627976
+[debug] [2025-03-08T01:43:49.295Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/budget-app-579d1/webApps/-/config [none]
+[debug] [2025-03-08T01:43:50.339Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/budget-app-579d1/webApps/-/config 200
+[debug] [2025-03-08T01:43:50.339Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/budget-app-579d1/webApps/-/config {"projectId":"budget-app-579d1","storageBucket":"budget-app-579d1.firebasestorage.app","apiKey":"AIzaSyDjIKULOvjEyTeg5ESWIGQPLuvo8s0grd8","authDomain":"budget-app-579d1.firebaseapp.com","messagingSenderId":"221702288386"}
+[debug] [2025-03-08T01:43:50.351Z] Checked if tokens are valid: true, expires at: 1741401627976
+[debug] [2025-03-08T01:43:50.351Z] Checked if tokens are valid: true, expires at: 1741401627976
+[debug] [2025-03-08T01:43:50.352Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/budget-app-579d1 [none]
+[debug] [2025-03-08T01:43:50.912Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/budget-app-579d1 200
+[debug] [2025-03-08T01:43:50.913Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/budget-app-579d1 {"projectId":"budget-app-579d1","projectNumber":"221702288386","displayName":"budget-app","name":"projects/budget-app-579d1","resources":{"hostingSite":"budget-app-579d1"},"state":"ACTIVE","etag":"1_e8870935-3ee3-4487-a207-7ca0003bddb8"}
+[info] i  hosting[budget-app-579d1]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting[budget-app-579d1]: Local server: http://127.0.0.1:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5002\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-03-08T01:43:50.969Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5002 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2025:01:44:03 +0000] "GET / HTTP/1.1" 200 616 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2025:01:44:03 +0000] \"GET / HTTP/1.1\" 200 616 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2025:01:44:03 +0000] "GET /static/css/main.75e51ae3.css HTTP/1.1" 200 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2025:01:44:03 +0000] \"GET /static/css/main.75e51ae3.css HTTP/1.1\" 200 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2025:01:44:03 +0000] "GET /static/js/main.6382a19a.js HTTP/1.1" 200 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2025:01:44:03 +0000] \"GET /static/js/main.6382a19a.js HTTP/1.1\" 200 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2025:01:44:04 +0000] "GET /manifest.json HTTP/1.1" 200 616 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2025:01:44:04 +0000] \"GET /manifest.json HTTP/1.1\" 200 616 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2025:01:44:07 +0000] "GET / HTTP/1.1" 200 616 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2025:01:44:07 +0000] \"GET / HTTP/1.1\" 200 616 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
